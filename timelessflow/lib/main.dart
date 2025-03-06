@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Timeless Flow',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -24,8 +25,8 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Bienvenue sur Timeless Flow")),
-      body: Center(child: Text("Firebase est bien connecté 🚀")),
+      appBar: AppBar(title: Text("Timeless Flow")),
+      body: Center(child: Text("Firebase fonctionne bien ! 🚀")),
     );
   }
 }

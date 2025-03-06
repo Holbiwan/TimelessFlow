@@ -1,4 +1,4 @@
-# Miscellaneous
+# 📌 Fichiers inutiles et temporaires
 *.class
 *.log
 *.pyc
@@ -10,18 +10,14 @@
 .svn/
 migrate_working_dir/
 
-# IntelliJ related
+# 📌 IntelliJ / Android Studio / VS Code
 *.iml
 *.ipr
 *.iws
 .idea/
+/.vscode/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
+# 📌 Flutter/Dart/Pub
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
@@ -31,13 +27,38 @@ migrate_working_dir/
 .pub/
 /build/
 
-# Symbolication related
+# 📌 Symbolication et Obfuscation
 app.*.symbols
-
-# Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
+# 📌 Fichiers de build Android
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# 📌 Fichiers de configuration Firebase (⚠️ Sensibles, ne pas partager)
+firebase.json
+firestore.rules
+database.rules.json
+google-services.json
+GoogleService-Info.plist
+firestore-debug.log
+firestore-indexes.json
+
+# 📌 Fichiers spécifiques aux plateformes
+linux/
+macos/
+windows/
+
+# 📌 Archives et binaires inutiles
+*.tar.xz
+*.deb
+*.apk
+*.ipa
+
+# 📌 JetBrains / IDEs
+*.iml
+.idea/
+*.ipr
+*.iws
+*.jar
