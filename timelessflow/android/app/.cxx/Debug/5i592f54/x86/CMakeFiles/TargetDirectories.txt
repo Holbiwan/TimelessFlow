@@ -1,2 +1,0 @@
-/home/flutterdev/TimelessFlow/timelessflow/android/app/.cxx/Debug/5i592f54/x86/CMakeFiles/edit_cache.dir
-/home/flutterdev/TimelessFlow/timelessflow/android/app/.cxx/Debug/5i592f54/x86/CMakeFiles/rebuild_cache.dir
